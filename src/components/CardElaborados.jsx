@@ -1,15 +1,15 @@
 import React from "react";
 import Card from "./Card";
-import PastasCardData from "./PastasCardData";
+import ElaboradosCardData from "./ElaboradosCardData";
 //Estilos
 import "./CardProduct.css";
 
-const CardTapas = () => {
+const CardElaborados = () => {
   return (
     <div className="CardProduct-container">
-      <h1 className="project-heading">PASTAS</h1>
+      <h1 className="project-heading">Elaborados</h1>
       <div className="project-container">
-        {PastasCardData.map((val, ind) => {
+        {ElaboradosCardData.map((val, ind) => {
           return (
             <Card
               key={ind}
@@ -26,4 +26,4 @@ const CardTapas = () => {
   );
 };
 
-export default CardTapas;
+export default CardElaborados;

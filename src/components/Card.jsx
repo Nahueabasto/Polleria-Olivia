@@ -2,7 +2,7 @@ import React from "react";
 //Estilos
 import "./Card.css";
 
-const ProductCard = (props) => {
+const Card = (props) => {
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="imagen" />
@@ -20,4 +20,4 @@ const ProductCard = (props) => {
   );
 };
 
-export default ProductCard;
+export default Card;

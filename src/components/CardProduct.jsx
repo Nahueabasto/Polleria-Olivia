@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "./Card";
+import Card from "./Card";
 import ProductCardData from "./ProductCardData";
 //Estilos
 import "./CardProduct.css";
@@ -11,7 +11,7 @@ const CardProduct = () => {
       <div className="project-container">
         {ProductCardData.map((val, ind) => {
           return (
-            <ProductCard
+            <Card
               key={ind}
               imgsrc={val.imgsrc}
               title={val.title}
