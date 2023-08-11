@@ -7,7 +7,6 @@ import "./Navbar.css";
 
 export default function Navbar() {
 
-
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -42,10 +41,13 @@ export default function Navbar() {
           <Link to="/">Inicio</Link>
         </li>
         <li>
-          <Link to="/proyectos">Productos</Link>
+          <Link to="/products">Productos</Link>
         </li>
         <li>
-          <Link to="/acerca_de_mi">Sobre nosotros</Link>
+          <Link to="/pastas">Pastas</Link>
+        </li>
+        <li>
+          <Link to="/elavorados">Elavorados</Link>
         </li>
         </ul>
         <div className="hamburguer" onClick={handleClick}>
