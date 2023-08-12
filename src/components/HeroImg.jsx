@@ -11,6 +11,10 @@ const HeroImg = () => {
       <div className="mask">
         <img className="into-img" src={img} alt="Imagen de computadora" />
       </div>
+      <div className="content">
+        <p>!Bienvenido a polleria olivia!</p>
+        <h1>Encontrá acá los mejores productos!</h1>
+      </div>
     </div>
   );
 };

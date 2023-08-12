@@ -54,7 +54,7 @@
     display: none;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 800px) { /* 800px para cuando empieza a activarse el nav manu */
     .nav-menu {
       flex-direction: column;
       justify-content: center;
