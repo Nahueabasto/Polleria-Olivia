@@ -44,10 +44,10 @@ export default function Navbar() {
           <Link to="/products">Productos</Link>
         </li>
         <li>
-          <Link to="/pastas">Pastas</Link>
+          <Link to="/elaborados">Elaborados</Link>
         </li>
         <li>
-          <Link to="/elaborados">Elaborados</Link>
+          <Link to="/pastas">Pastas</Link>
         </li>
         </ul>
         <div className="hamburguer" onClick={handleClick}>

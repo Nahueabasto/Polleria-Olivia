@@ -5,7 +5,7 @@ import ProSeis from "../img/alitass.jpg";
 const ProductCardData = [
   {
     imgsrc: ProCuatro,
-    title: "Tapas de empandas",
+    title: "Tapas de empanadas",
     text: "",
     view: "",
     source: "",
