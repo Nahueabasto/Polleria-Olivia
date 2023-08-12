@@ -69,9 +69,16 @@
 
   
   
-  @media screen and (max-width: 505px) {
+  @media screen and (max-width: 660px) {
     .footer-container {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
     }
-  }
+
+    /* Agrega un margen interno para los elementos dentro de las columnas */
+    .footer-container > * {
+        margin-top: -50px; /* Ajusta este valor según tu preferencia */
+    }
+}
+
   

@@ -21,7 +21,7 @@ export default function Footer(){
                 <InstagramIcon
                   className="mui"
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#fff", marginRight: "1rem" }}
                 />
                 <div>
                   <p>polleria_olivia/</p>
@@ -34,7 +34,7 @@ export default function Footer(){
                   <PhoneIcon
                     className="mui"
                     size={20}
-                    style={{ color: "#fff", marginRight: "2rem" }}
+                    style={{ color: "#fff", marginRight: "1rem" }}
                   />
                   +54 9 3434 17-5351
                 </h4>
@@ -45,23 +45,20 @@ export default function Footer(){
                 <EmailIcon
                 className="mui"
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#fff", marginRight: "1rem" }}
                 />
                 nahuel7474@gmail.com
               </h4>
             </div>
           </div>
           <div className="right">
-            {/* <h4>Sobre Mí</h4> */}
-            <p>
-              
-            </p>
+            
             <div className="location">
               <h4 className="h4">
                 <LocationOnIcon
                 className="mui"
                   size={20}
-                  style={{ color: "#fff", marginLeft: "2rem" }}
+                  style={{ color: "#fff", marginRight: "1rem" }}
                 />
                 Viale, Entre Rios. Argentina. 
               </h4>
@@ -71,9 +68,9 @@ export default function Footer(){
                 <StorefrontIcon
                 className="mui"
                   size={20}
-                  style={{ color: "#fff", marginLeft: "2rem" }}
+                  style={{ color: "#fff", marginRight: "1rem" }}
                 />
-                25 de Mayo - 960 
+                 25 de Mayo - 960 
               </h4>
             </div>
           </div>
