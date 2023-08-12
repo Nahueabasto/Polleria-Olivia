@@ -36,7 +36,7 @@ export default function Footer(){
                     size={20}
                     style={{ color: "#fff", marginRight: "2rem" }}
                   />
-                  +54 9 3437 46-4000
+                  +54 9 3434 17-5351
                 </h4>
               </div>
            
