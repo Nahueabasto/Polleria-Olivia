@@ -33,7 +33,6 @@ export default function Navbar() {
               height="90"
             ></img>
           </Link>
-         
           <h1 className="text-nav">Polleria Olivia</h1>
           </div>  
         <ul className={click ? "nav-menu active" : "nav-menu"}>
