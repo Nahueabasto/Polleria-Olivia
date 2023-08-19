@@ -1,6 +1,6 @@
 import ProSiete from "../img/mila.jpeg";
-import ProOcho from "../img/pechugas.jpeg";
-import ProNueve from "../img/alitass.jpg";
+import ProOcho from "../img/medallon.jpg";
+//import ProNueve from "../img/alitass.jpg";
 
 const ElaboradosCardData = [
   {
@@ -10,13 +10,13 @@ const ElaboradosCardData = [
     view: "",
     source: "",
   },
-//   {
-//     imgsrc: ProOcho,
-//     title: "",
-//     text: "",
-//     view: "",
-//     source: "",
-//   },
+  {
+    imgsrc: ProOcho,
+    title: "Medallones",
+    text: "primavera, espinaca.",
+    view: "",
+    source: "",
+  },
 //   {
 //     imgsrc: ProNueve,
 //     title: "",
