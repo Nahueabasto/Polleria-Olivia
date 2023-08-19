@@ -7,7 +7,7 @@ import "./CardProduct.css";
 const CardTapas = () => {
   return (
     <div className="CardProduct-container">
-      <h1 className="project-heading">PASTAS</h1>
+      <h1 className="project-heading">Pastas</h1>
       <div className="project-container">
         {PastasCardData.map((val, ind) => {
           return (

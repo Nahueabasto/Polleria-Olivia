@@ -7,7 +7,7 @@ import "./CardProduct.css";
 const CardProduct = () => {
   return (
     <div className="CardProduct-container">
-      <h1 className="project-heading">PRODUCTOS</h1>
+      <h1 className="project-heading">Productos</h1>
       <div className="project-container">
         {ProductCardData.map((val, ind) => {
           return (
